@@ -6,7 +6,7 @@ class Welcome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Text("HELLO"),
+        child: Text("Hello"),
       ),
     );
   }
