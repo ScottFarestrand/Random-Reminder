@@ -25,14 +25,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      initialRoute: 'welcome_screen',
+      initialRoute: Welcome.id,
       routes: {
-        'welcome_screen': (context) => const Welcome(),
-        'login_screen': (context) => const Login(),
-        'register_screen': (context) => const Register(),
-        'user_screen': (context) => const User(),
-        'relatonships_screen': (context) => const Relationships(),
-        'reminders_screen': (context) => const Reminders(),
+        Welcome.id: (context) => Welcome(),
+        Login.id: (context) =>  Login(),
+        Register.id: (context) =>  Register(),
+        User.id: (context) =>  User(),
+        Relationships.id: (context) =>  Relationships(),
+        Reminders.id: (context) =>  Reminders(),
       },
     );
   }
