@@ -5,6 +5,6 @@ class Login extends StatelessWidget {
   static String id = 'login_screen';
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(body: Text("Login"),);
   }
 }

@@ -5,6 +5,6 @@ class Register extends StatelessWidget {
   static String id = 'register_screen';
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(body: Text('Register'),);
   }
 }
